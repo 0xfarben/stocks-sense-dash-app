@@ -1,0 +1,412 @@
+ /* Declare  Custom fonts*/
+ @font-face {
+    font-family: Acorn;
+    src: url("acorn-top.woff") format("woff"),
+}
+@font-face {
+    font-family: GT;
+    src: url("gt.woff") format("woff");
+}
+@font-face {
+    font-family: Armin;
+    src: url("ArminGrotesk-SemiBold.woff") format("woff");
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-heading {
+    font-family: Acorn;
+    font-weight: normal;
+    font-size: 2.5rem;
+    color: white; /* Adjust text color as needed */
+    margin-bottom: 20px;
+}
+
+.image-container {
+    margin-bottom: 20px;
+}
+
+.title-card {
+    max-width: 300px;
+    max-height: 300px;
+    height: auto;
+}
+
+p {
+    font-size: 1.4rem;
+    color: white; /* Adjust text color as needed */
+}
+
+ .description_ticker{
+    font-size: 1.3rem;
+    color: white; /* Adjust text color as needed */
+}
+
+.stock-div, .forecast-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px; /* Gap between elements */
+    padding: 20px;
+}
+/* 
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.bitcoin-card {
+    max-width: 100px; 
+    height: auto; 
+} */
+
+
+.stock {
+    margin: 0; /* Reset default margin */
+}
+
+/* .stock-submit-button:hover , .forecast-button:hover, .stock-price-button:hover, .indicator-button:hover{
+
+        background: #40f175;
+        background-image: -webkit-linear-gradient(bottom, #080002, #40f175);
+        background-image: -moz-linear-gradient(right, #000000, #09f54f);
+        background-image: -ms-linear-gradient(top, #000000, #09f54f);
+        background-image: -o-linear-gradient(top, #000000, #09f54f);
+        background-image: linear-gradient(top, #020202, #09f54f);
+        text-decoration: none;
+      
+} */
+
+.stock-input{
+    display: block;
+    width: 50%;
+    padding: .5rem .75rem;
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.4rem;
+    color: #495057;
+    background-color: #131212;
+    background-clip: padding-box;
+    /* border: 2px solid; */
+    border: 1px solid #e290ec;
+/*     
+    border-image: linear-gradient(
+        69deg,
+        #4fcf70,
+        #fad648,
+        #a767e5,
+        #12bcfe,
+        #44ce7b
+    ) 2;
+    outline: none; */
+    border-radius: 10px; /* Add this line to make the corners rounded */
+    appearance: none;
+    transition: box-shadow .15s ease, border-color .15s ease;
+
+}
+
+
+.forecast-input {
+    display: block;
+    width: 35%;
+    padding: .5rem .75rem;
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.4rem;
+    color: #495057;
+    background-color: #131212;
+    background-clip: padding-box;
+    border: 1px solid #e290ec;
+    border-radius: 10px; /* Add this line to make the corners rounded */
+    appearance: none;
+    transition: box-shadow .15s ease, border-color .15s ease;
+}
+
+
+.division1 {
+    padding: 40px;
+}
+
+.division2 {
+    /* margin-left: 0; */
+    padding: 15px;
+}
+
+html, body {
+    height: 100vh;
+    overflow-x: hidden;
+    font-size: 20px;
+    font-family: Armin;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/assets/nero.png');
+    background-size: cover;  /* or 'contain', depending on your needs */
+    background-repeat: no-repeat;  /* Prevent repeating */
+    background-position: center;  /* Center the background image */
+    background-attachment: scroll;  /* Ensure the background scrolls with the content */
+    min-height: 100vh;  /* Ensure the body takes at least the full viewport height */
+}
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #ffffff !important;
+} 
+
+.description_ticker{
+    width: 80%; /* Adjust width as needed */
+    margin: 0 auto; /* Centers the container horizontally */
+    text-align: justify;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.date-picker-range .DateRangePickerInput {
+    /* height: 5rem; */
+    background-color: #2c2c2c; 
+    border: 1px solid #2c2c2c;
+    color: #FFFFFF;  
+}
+.date-picker-range .DateInput_input {
+    background-color: #2c2c2c;      
+    
+    color: #FFFFFF; 
+}
+.date-picker-range .DayPickerNavigation_button {
+    background-color: #2c2c2c;  
+    color: #FFFFFF; 
+}
+
+.DayPicker_transitionContainer , .DayPicker_transitionContainer_1, .DayPicker_transitionContainer_horizontal, .DayPicker_transitionContainer_horizontal_2 {
+    background-color: #1D2B53;
+}
+
+.CalendarMonthGrid , .CalendarMonthGrid_1, .CalendarMonthGrid_horizontal, .CalendarMonthGrid_2 {
+    background-color: #1D2B53;
+}
+
+/* Set the background color and text color for the input fields of DatePickerRange */
+.DateInput_input {
+    background-color: #00040e;  
+    color: #1D2B53; 
+}
+
+.DateInput_input__focused { 
+    background-color: #5D0E41; 
+    color: #1D2B53; 
+}
+
+.CalendarDay__default {
+    background: #1D2B53;  
+    color: #1D2B53; 
+    border: 1px solid #4b0082; 
+}
+.date-picker-range .CalendarDay__default {
+    background-color: #2c2c2c; 
+    color: #FFFFFF; 
+    border: 1px solid #4b0082; 
+}
+
+.CalendarDay__selected,.CalendarDay__selected_span{
+    background: #1D2B53; 
+    color: #1D2B53; 
+    border: 1px double #979aa0;
+}
+
+.CalendarDay__selected:hover, .CalendarDay__selected_span:hover , .CalendarDay__default:hover {
+    background: #5D0E41; 
+    color: #5D0E41;  
+
+}
+
+.Calendar {
+    background: #1D2B53;  
+}
+.CalendarMonth {
+    background: #1D2B53;  
+}
+
+.DateRangePicker_picker {
+    background: #1D2B53; 
+}
+
+
+.date-picker-range {
+    /* Example styles for DatePickerRange */
+    background-color: #2c2c2c;
+    border: 1px solid #e290ec;
+    border-radius: 5px;
+    padding: 10px; /* Add padding for spacing inside the date picker */
+}
+
+
+
+.date-picker-div {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px; /* Gap between elements */
+    padding: 20px;
+
+}
+
+.forecast-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px; /* Gap between elements */
+    padding: 20px;
+}
+
+
+/* -----button ----- */
+/* Button styles */
+.forecast-button, .submit-button {
+    font-family: GT;
+    font-size: 18px;
+    display: inline-block;
+    outline: 0;
+    border: 0.5px solid #e290ec;
+    cursor: pointer;
+    will-change: box-shadow,transform;
+    /* background: radial-gradient( 100% 100% at 100% 0%, #000f13 0%, #5468FF 100% ); */
+    background: #0c1224;
+    box-shadow: 0px 0.01em 0.01em rgb(45 35 66 / 40%), 0px 0.3em 0.7em -0.01em rgb(45 35 66 / 30%), inset 0px -0.01em 0px rgb(58 65 111 / 50%);
+    padding: 0 2.1em;
+    border-radius: 0.3em;
+    color: #fff;
+    height: 2.8em;
+    text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+    transition: box-shadow 0.15s ease, transform 0.15s ease;
+  }
+  
+  .stock-button {
+    font-family: GT;
+    font-size: 18px;
+    display: inline-block;
+    outline: 0;
+    border: 0.5px solid #e290ec;
+    cursor: pointer;
+    will-change: box-shadow,transform;
+    /* background: radial-gradient( 100% 100% at 100% 0%, #000f13 0%, #5468FF 100% ); */
+    background: #0c1224;
+    box-shadow: 0px 0.01em 0.01em rgb(45 35 66 / 40%), 0px 0.3em 0.7em -0.01em rgb(45 35 66 / 30%), inset 0px -0.01em 0px rgb(58 65 111 / 50%);
+    padding: 0 2.1em;
+    border-radius: 0.3em;
+    color: #fff;
+    height: 3.5em;
+    text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+    transition: box-shadow 0.15s ease, transform 0.15s ease;
+  }
+  .indicator-button {
+    font-family: GT;
+    font-size: 18px;
+    display: inline-block;
+    outline: 0;
+    border: 0.5px solid #e290ec;
+    cursor: pointer;
+    will-change: box-shadow,transform;
+    /* background: radial-gradient( 100% 100% at 100% 0%, #000f13 0%, #5468FF 100% ); */
+    background: #0c1224;
+    box-shadow: 0px 0.01em 0.01em rgb(45 35 66 / 40%), 0px 0.3em 0.7em -0.01em rgb(45 35 66 / 30%), inset 0px -0.01em 0px rgb(58 65 111 / 50%);
+    padding: 0 2.1em;
+    border-radius: 0.3em;
+    color: #fff;
+    height: 3.5em;
+    text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+    transition: box-shadow 0.15s ease, transform 0.15s ease;
+  }
+
+
+  .forecast-button:hover, .submit-button:hover , .stock-button:hover, .indicator-button:hover{
+    box-shadow: 0px 0.1em 0.2em rgb(45 35 66 / 40%), 0px 0.4em 0.7em -0.1em rgb(45 35 66 / 30%), inset 0px -0.1em 0px #3c4fe0;
+    transform: translateY(-0.1em);
+  }
+  
+  .forecast-button:active, .submit-button:active , .stock-button:active, .indicator-button:active{
+    box-shadow: inset 0px 0.1em 0.6em #3c4fe0;
+    transform: translateY(0em);
+  }
+
+/* Style for the dropdown container */
+.dropdown-container {
+    position: relative;
+    top: 10px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    z-index: 10; /* Ensure it is above other elements */
+}
+
+/* Style for the dropdown itself */
+.Select-control {
+    width: 300px; /* Adjust the width as needed */
+    background-color: #333; /* Dark background color */
+    color: #fff; /* White text color */
+    border: 1px solid #444; /* Dark border color */
+    border-radius: 4px; /* Rounded corners */
+}
+
+/* Style for the dropdown options */
+.Select-menu-outer {
+    background-color: #333; /* Dark background color */
+    border: 1px solid #444; /* Dark border color */
+}
+
+/* Style for the option items */
+.Select-option {
+    color: #fff; /* White text color */
+}
+
+/* Hover effect for options */
+.Select-option:hover {
+    background-color: #555; /* Darker background on hover */
+}
+
+.dropdown-and-text {
+    /* display: flex;
+    align-items: center;
+    gap: 20px;  
+} */ 
+    position: static;
+    top: 50px;  /* Adjust as needed */
+    left: 20px;  /* Adjust as needed */
+    z-index: 1000;  /* Ensure it stays on top */
+}
+
+/* Style for the dropdown */
+.dropdown-and-text .Select-control {
+    background-color: #333;  /* Dark background color */
+    color: #fff;  /* White text color */
+    border: 1px solid #444;  /* Dark border */
+}
+
+/* Style for the placeholder text */
+.dropdown-and-text .Select-placeholder {
+    color: #fff;  /* White text color for the placeholder */
+}
+
+/* Style for the dropdown options */
+.dropdown-and-text .Select-menu-outer {
+    background-color: #333;  /* Dark background color */
+    border: 1px solid #444;  /* Dark border */
+    color: #fff;  /* White text color */
+}
