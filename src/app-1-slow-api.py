@@ -5,6 +5,7 @@ import pandas as pd
 import yfinance as yf
 import plotly.express as px
 from sklearn.svm import SVR
+from dotenv import load_dotenv
 import plotly.graph_objs as go
 import dash_core_components as dcc
 import dash_html_components as html
@@ -12,7 +13,8 @@ from sklearn.linear_model import LinearRegression
 from dash.dependencies import Input, Output, State
 from sklearn.model_selection import train_test_split
 
-FMP_API = "e7xIqz67QswaXEvyXRAkDqi2yzT6lrEd"
+load_dotenv()
+FMP_API = os.environ.get("FMP_API")
 app = dash.Dash(__name__)
 app.suppress_callback_exceptions = True
 
