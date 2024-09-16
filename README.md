@@ -65,6 +65,7 @@ A web application that visualizes real-time stock data, predicts future stock pr
 ![2024-07-21 01_26_43-Greenshot](https://github.com/user-attachments/assets/2b3f36fb-0a4f-4f6c-a3fa-23be083bc51b)
 ![2024-07-21 01_26_51-Greenshot](https://github.com/user-attachments/assets/2b367260-6ee7-4b63-b5f2-2b24662a2730)
 
+![2024-07-21 01_23_56-Greenshot](https://github.com/user-attachments/assets/1adb0ed2-baa8-47e6-84d9-2b0cca48d7da)
 
 
 ## Future Enhancements
