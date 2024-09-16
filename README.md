@@ -1,6 +1,79 @@
 # STOCK VISUALIZATION & FORECAST APP
 ![ZtzMb2ZPbld4kR7jazctr3m3p5E](https://github.com/user-attachments/assets/58f49fb4-1fd8-40af-b3c9-792dde5eaf34)
-Stock investments provide one of the highest returns in the market. Even though they are volatile in nature, one can visualise share prices and other statistical factors which helps the keen investors carefully decide on which company they want to spend their earnings on.
-
 
  ### Demonstration : <pre>**[Link to the Demonstration Video](https://youtu.be/NzPVfPM83cU)** </pre>
+
+A web application that visualizes real-time stock data, predicts future stock prices using machine learning models, and provides detailed insights into stock trends. Built with Python and Dash, the app fetches stock data using an API, applies machine learning models for forecasting, and visualizes the results with interactive charts.
+
+## Features
+
+- **Real-Time Stock Data**: Fetch and display real-time stock data from a reliable API source.
+- **Stock Price Visualization**: Interactive charts showing stock price trends using Plotly.
+- **Stock Price Forecasting**: Predict future stock prices using machine learning models (Support Vector Regression and Linear Regression).
+- **User-friendly Interface**: Intuitive and interactive web interface built with Dash.
+- **Historical Data Analysis**: View and analyze historical stock data to understand long-term trends.
+
+## Tech Stack
+
+- **Python**: Main programming language used.
+- **Dash**: Web framework for building the front-end of the application.
+- **Plotly**: Library used for creating interactive graphs and visualizations.
+- **Machine Learning Models**:
+  - **Support Vector Regression (SVR)**
+  - **Linear Regression**
+- **API**: [API Name] for fetching real-time stock data (you can replace this with the specific API you're using).
+- **Pandas & NumPy**: For data manipulation and processing.
+- **scikit-learn**: Used for implementing the machine learning models.
+
+## Installation
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/stock-visualization-forecast-app.git
+    cd stock-visualization-forecast-app
+    ```
+
+2. Install the required dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. Create a `.env` file for your API key:
+    ```
+    STOCK_API_KEY=your_api_key_here
+    ```
+
+4. Run the application:
+    ```bash
+    python app.py
+    ```
+
+5. Open your browser and go to `http://127.0.0.1:8050/` to view the app.
+
+## Usage
+
+1. **Select a Stock**: Input the stock ticker symbol in the search box.
+2. **View Stock Data**: See real-time and historical stock data visualized in graphs.
+3. **Predict Stock Prices**: The app will use machine learning models to predict future prices based on past data.
+4. **Interactive Graphs**: Hover over the charts to view detailed stock information.
+
+## Screenshots
+
+*Include some screenshots of the app showing the stock data visualization and forecasting models.*
+
+## Future Enhancements
+
+- Add more machine learning models for better predictions.
+- Implement additional financial indicators.
+- Improve UI with more customization options.
+- Add support for multiple stock markets (e.g., NASDAQ, NYSE).
+
+## Contributing
+
+Feel free to contribute to this project. Fork the repository, make your changes, and submit a pull request!
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+
