@@ -59,11 +59,11 @@ A web application that visualizes real-time stock data, predicts future stock pr
 ## Demonstration : <pre>**[Link to the Demonstration Video](https://youtu.be/NzPVfPM83cU)** </pre>
 
 ## Screenshots
-![2024-07-21 01_16_13-Greenshot](https://github.com/user-attachments/assets/fde4b8a8-852f-4aa4-839b-e69a8c74a683)
-![2024-07-21 01_19_14-Greenshot](https://github.com/user-attachments/assets/870aa918-e14d-4b14-964f-a8eae769bad5)
-![2024-07-21 01_23_56-Greenshot![2024-07-21 01_26_43-Greenshot](https://github.com/user-attachments/assets/36738cfe-cea7-49ed-b0be-42f061d691da)
-![2024-07-21 01_26_43-Greenshot](https://github.com/user-attachments/assets/218970c9-3db7-4f16-ad4e-4a659ec4d13e)
-![2024-07-21 01_26_51-Greenshot](https://github.com/user-attachments/assets/b2e0a9c2-3da7-4888-bfbe-2ca2da5b4ed6)
+![2024-07-21 01_16_13-Greenshot](https://github.com/user-attachments/assets/ae931611-6b53-42bd-9834-4fe218621b0a)
+![2024-07-21 01_19_14-Greenshot](https://github.com/user-attachments/assets/6af21764-b84d-43e4-876a-09b7a5fcfa0b)
+![2024-07-21 01_23_56-Greenshot](https://github.com/user-attachments/assets/e38f9186-db6a-49ae-9887-5ff69b918efa)
+![2024-07-21 01_26_43-Greenshot](https://github.com/user-attachments/assets/2b3f36fb-0a4f-4f6c-a3fa-23be083bc51b)
+![2024-07-21 01_26_51-Greenshot](https://github.com/user-attachments/assets/2b367260-6ee7-4b63-b5f2-2b24662a2730)
 
 
 
