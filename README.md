@@ -1,8 +1,6 @@
 # STOCK VISUALIZATION & FORECAST APP
 ![ZtzMb2ZPbld4kR7jazctr3m3p5E](https://github.com/user-attachments/assets/58f49fb4-1fd8-40af-b3c9-792dde5eaf34)
 
- ### Demonstration : <pre>**[Link to the Demonstration Video](https://youtu.be/NzPVfPM83cU)** </pre>
-
 A web application that visualizes real-time stock data, predicts future stock prices using machine learning models, and provides detailed insights into stock trends. Built with Python and Dash, the app fetches stock data using an API, applies machine learning models for forecasting, and visualizes the results with interactive charts.
 
 ## Features
@@ -57,9 +55,16 @@ A web application that visualizes real-time stock data, predicts future stock pr
 3. **Predict Stock Prices**: The app will use machine learning models to predict future prices based on past data.
 4. **Interactive Graphs**: Hover over the charts to view detailed stock information.
 
-## Screenshots
 
-*Include some screenshots of the app showing the stock data visualization and forecasting models.*
+## Demonstration : <pre>**[Link to the Demonstration Video](https://youtu.be/NzPVfPM83cU)** </pre>
+
+## Screenshots
+![2024-07-21 01_16_13-Greenshot](https://github.com/user-attachments/assets/fde4b8a8-852f-4aa4-839b-e69a8c74a683)
+![2024-07-21 01_19_14-Greenshot](https://github.com/user-attachments/assets/870aa918-e14d-4b14-964f-a8eae769bad5)
+![2024-07-21 01_23_56-Greenshot![2024-07-21 01_26_43-Greenshot](https://github.com/user-attachments/assets/36738cfe-cea7-49ed-b0be-42f061d691da)
+](https://github.com/user-attachments/assets/a913d0d5-4b76-4a76-be35-2213e04fd686)
+
+
 
 ## Future Enhancements
 
