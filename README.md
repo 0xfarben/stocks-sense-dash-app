@@ -78,8 +78,4 @@ A web application that visualizes real-time stock data, predicts future stock pr
 
 Feel free to contribute to this project. Fork the repository, make your changes, and submit a pull request!
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 
